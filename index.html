@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Check out free minigames! HAVE FUN!!!" />
+    <meta
+      name="description"
+      content="Nephilim's Minigames?! OMG! BTW HAVE FUN!"
+    />
+
+    <meta property="og:image" content="img/minigames-wallpaper.jpg" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://nephilims-minigames.netlify.app" />
+    <meta property="og:title" content="Nephilim's Minigames" />
+    <meta
+      property="og:description"
+      content="Check out free minigames! HAVE FUN!!!"
+    />
+
+    <link rel="icon" href="img/favicon.png" />
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
+    <link rel="manifest" href="mainfest.webmanifest" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/Queries/queries.css" />
+
+    <title>Nephilim's Games</title>
+  </head>
+  <body>
+    <section class="main-section">
+      <h1 class="main-header">Nephilim's Games!</h1>
+      <div class="main-holder">
+        <div class="btns">
+          <a href="gmn.html" class="btn btn-1">Guess My Number!</a>
+          <button class="show-modal-gmn btn-modal">?</button>
+        </div>
+        <div class="btns">
+          <a href="rtd.html" class="btn btn-2">Roll The Dice!</a>
+          <button class="show-modal-2 btn-modal">?</button>
+        </div>
+        <div class="btns">
+          <a href="bmi.html" class="btn btn-3">BMI Calculator</a>
+          <button class="show-modal-3 btn-modal">?</button>
+        </div>
+        <div class="btns">
+          <a href="ttt.html" class="btn btn-4">Tic Tac Toe</a>
+          <button class="show-modal-4 btn-modal">?</button>
+        </div>
+      </div>
+
+      <div class="modal hidden modal-box">
+        <button class="close-modal close-modal-btn">&times;</button>
+        <h1 class="modal-header">Guess The Number!</h1>
+        <p class="modal-text">
+          You need to guess the number between 1-20. You have got 20 chances and
+          keep in mind that your highscore will be saved, so you can play it
+          with your friends and find out who has got the best intuition. ohh and
+          main rule: HAVE FUN!!!
+        </p>
+      </div>
+      <div class="modal-2 hidden modal-box">
+        <button class="close-modal-2 close-modal-btn">&times;</button>
+        <h1 class="modal-header">Roll The Dice!</h1>
+        <p class="modal-text">
+          It's a minigame for 2 players. You need to roll the dice. If you your
+          rolled dice is 2, 3, 4, 5 or 6 you can hold your score and then will
+          be your friend's turn. Also you can continue rolling but keep in mind
+          that if your rolled dice will be 1, you will lose all of your points
+          and then will be your friend's turn. First player who gets 100 points
+          wins. Good luck! ohh and main rule: HAVE FUN!!!
+        </p>
+      </div>
+      <div class="modal-3 hidden modal-box">
+        <button class="close-modal-3 close-modal-btn">&times;</button>
+        <h1 class="modal-header">BMI Calculator</h1>
+        <p class="modal-text">
+          Body Mass Index is a simple calculation using a person's height and
+          weight. The formula is BMI = kg/m2 where kg is a person's weight in
+          kilograms and m2 is their height in metres squared. A BMI of 25.0 or
+          more is overweight, while the healthy range is 18.5 to 24.9.
+        </p>
+      </div>
+      <div class="modal-4 hidden modal-box">
+        <button class="close-modal-4 close-modal-btn">&times;</button>
+        <h1 class="modal-header">Tic Tac Toe</h1>
+        <p class="modal-text">
+          Simple Tic Tac Toe game for you and your friends!
+        </p>
+      </div>
+      <div class="overlay hidden"></div>
+    </section>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>

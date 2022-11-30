@@ -1,0 +1,157 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+  font-family: "Odibee Sans", cursive, sans-serif;
+}
+
+html {
+  background-color: #adb0ab;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+.main-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-header {
+  font-size: 9.6rem;
+  text-align: center;
+  padding: 8rem 4.8rem;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6.4rem;
+  padding: 1.8rem;
+  margin-top: 4rem;
+}
+
+.header {
+  font-size: 3.6rem;
+}
+
+.input {
+  font-size: 3.6rem;
+  margin-top: 1.8rem;
+  border-radius: 11px;
+  border: solid 3px #000;
+}
+
+.btn {
+  font-size: 3.6rem;
+  padding: 8px 16px;
+  border: 2px solid #000;
+  border-radius: 11px;
+  margin-top: 2.4rem;
+  justify-self: center;
+  align-self: center;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: #000;
+  transition: all 0.3s;
+  color: #fff;
+  border: solid 2px #fff;
+}
+
+.btn-reset {
+  font-size: 3.6rem;
+  padding: 7px 14px;
+  border: 2px solid #000;
+  border-radius: 11px;
+  margin-top: 2.4rem;
+  position: absolute;
+  left: 2%;
+  top: 1%;
+}
+
+.btn-reset:hover {
+  cursor: pointer;
+  background-color: #000;
+  transition: all 0.3s;
+  color: #fff;
+  border: solid 2px #fff;
+}
+
+.result {
+  font-size: 4.8rem;
+  text-align: center;
+  margin-top: 2.4rem;
+}
+
+.hidden {
+  display: none;
+}
+
+/***********************************/
+/* BELOW 1124px */
+/***********************************/
+
+@media (max-width: 1124px) {
+  .result {
+    bottom: 15%;
+  }
+
+  html {
+    padding: 2.4rem;
+  }
+}
+
+/***********************************/
+/* BELOW 768px */
+/***********************************/
+
+@media (max-width: 768px) {
+  .main-header {
+    font-size: 7rem;
+    padding: 6.4rem 3.6rem;
+  }
+
+  .header {
+    font-size: 3rem;
+  }
+
+  .container {
+    padding: 2.4rem;
+  }
+}
+
+/***********************************/
+/* BELOW 684px */
+/***********************************/
+@media (max-width: 684px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .result {
+    bottom: 5%;
+    font-size: 3rem;
+  }
+
+  .btn-reset {
+    font-size: 3rem;
+    left: 1%;
+    top: 1%;
+  }
+}
+
+/***********************************/
+/* BELOW 436px */
+/***********************************/
+@media (max-width: 684px) {
+  .main-header {
+    font-size: 4.8rem;
+  }
+
+  .result {
+    font-size: 2.4rem;
+  }
+}

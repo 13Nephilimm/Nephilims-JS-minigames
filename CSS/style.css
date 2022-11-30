@@ -1,0 +1,128 @@
+/*********************************/
+/* GENERAL */
+/*********************************/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  background-image: url(../IMG/background.jpg);
+  background-size: cover;
+  filter: brightness(0.8);
+  font-family: "Odibee Sans", cursive, sans-serif;
+  line-height: 1;
+  overflow-x: hidden;
+}
+
+/*********************************/
+/* MAIN SECTION */
+/*********************************/
+.main-holder {
+  display: flex;
+  flex-direction: column;
+  padding-left: 8rem;
+  gap: 1.8rem;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.main-header {
+  font-size: 12rem;
+  color: #d4d703;
+  padding: 8rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn {
+  text-decoration: none;
+  font-size: 2.4rem;
+  color: rgba(211, 215, 3, 0.708);
+  transition: all 0.1s;
+  padding: 1;
+}
+
+.btn:hover {
+  color: #fcff00;
+  transform: translate(8%, -2%);
+}
+
+/*********************************/
+/* MODAL & OVERLAY */
+/*********************************/
+.modal-box {
+  gap: 4.8rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  height: 44%;
+  background-color: #fff;
+  padding: 4.8rem;
+  border-radius: 11px;
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+  z-index: 10;
+}
+
+.modal-text {
+  font-size: 2rem;
+  padding: 2.4rem;
+}
+
+.modal-header {
+  font-size: 4rem;
+  padding: 2.4rem;
+}
+
+.btns {
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+.btn-modal {
+  font-size: 2.4rem;
+  background: none;
+  color: rgba(211, 215, 3, 0.708);
+  border: none;
+  padding: 1rem;
+}
+
+.btn-modal:hover {
+  color: #fcff00;
+  transform: translate(8%, -2%);
+  cursor: pointer;
+}
+
+.close-modal-btn {
+  position: absolute;
+  top: 1.2rem;
+  right: 2rem;
+  font-size: 5rem;
+  color: #333;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(3px);
+  z-index: 5;
+}
+
+.hidden {
+  display: none;
+}

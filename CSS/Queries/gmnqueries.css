@@ -1,0 +1,35 @@
+/***********************************/
+/* BELOW 560px*/
+/***********************************/
+@media (max-width: 35em) {
+    main {
+        margin-top: 5.8rem;
+        gap: 2rem; 
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .guess {
+        padding: 1rem;
+    }
+
+    .left {
+        margin-top: 4.4rem;
+    }
+
+    .right {
+        margin-top: 4rem;
+    }
+
+    .number {
+        padding: 1;
+        width: 30%;
+        height: 40%;
+        font-size: 4.8rem;
+    }
+
+    h1 {
+        font-size: 5.5rem;
+    }
+ }

@@ -1,0 +1,74 @@
+/***********************************/
+/* BELOW 1505px */
+/***********************************/
+@media (max-width: 1505px) {
+  html {
+    background: #151515;
+  }
+}
+
+/***********************************/
+/* BELOW 864px */
+/***********************************/
+
+@media (max-width: 54em) {
+  .main-header {
+    font-size: 9.6rem;
+  }
+
+  .main-holder {
+    margin-top: 4.8rem;
+  }
+}
+
+/***********************************/
+/* BELOW 624px */
+/***********************************/
+
+@media (max-width: 39em) {
+  .main-header {
+    font-size: 8rem;
+  }
+
+  .modal-box {
+    gap: 3.6rem;
+    height: 80%;
+    padding: 1.8rem;
+  }
+
+  .modal-text {
+    font-size: 1.8rem;
+    padding: 1.8rem;
+  }
+
+  .modal-header {
+    font-size: 3.6rem;
+    padding: 1.8rem;
+  }
+}
+
+/***********************************/
+/* BELOW 512px */
+/***********************************/
+
+@media (max-width: 32em) {
+  .main-header {
+    font-size: 6.4rem;
+  }
+
+  .modal-box {
+    gap: 3.6rem;
+    padding: 1.2rem;
+    height: 70%;
+  }
+
+  .modal-text {
+    font-size: 1.8rem;
+    padding: 1.2rem;
+  }
+
+  .modal-header {
+    font-size: 3.6rem;
+    padding: 1.2rem;
+  }
+}
