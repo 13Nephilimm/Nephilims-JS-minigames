@@ -1,6 +1,6 @@
-# --4--Nephilim-s-Games
+# Nephilim's minigames
 
-All games are written in JavaScript. U can see the pics:
+All games are written by me using JavaScript. U can see the pics:
 
 LINK: https://nephilims-minigames.netlify.app/
 
